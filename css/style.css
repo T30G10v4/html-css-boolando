@@ -1,0 +1,38 @@
+/*RESET*/
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*HTML*/
+html {
+
+  font-size: 62.5%; /*Per avere 10px in proporzione al font base (16px : 100% = 10px : x%)*/
+
+}
+
+/*CLEARFIX PER ELEMENTI FLOAT*/
+.clearfix::after {
+
+  content:"";
+  clear: both;
+  display: table;
+  
+}
+
+/*AMPIEZZA IMMAGINE AL 100% DEL CONTENITORE*/
+img {
+
+  max-width: 100%;
+
+}
+
+/*TEST RULE*/
+p {
+
+  color: red;
+
+}
