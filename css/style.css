@@ -31,8 +31,49 @@ img {
 }
 
 /*TEST RULE*/
-p {
+/* p {
 
   color: red;
+
+} */
+
+/*COMMON*/
+
+.content {
+
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+
+  /*DEBUG*/
+  /* height: 100px; */
+  
+  border: 1px solid black
+
+}
+
+/*HEADER*/
+header {
+
+  background-color: #ff6900;
+
+}
+
+.header-elements {
+
+  display: flex;
+
+}
+
+.header-left,
+.header-center,
+.header-right {
+
+  /*DEBUG*/
+
+  height: 50px;
+  width: calc(100% / 3);
+  border: 1px solid black
+
 
 }
