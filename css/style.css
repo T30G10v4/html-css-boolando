@@ -46,11 +46,6 @@ img {
   margin: 0 auto;
   max-width: 1200px;
 
-  /*DEBUG*/
-  /* height: 100px; */
-  
-  border: 1px solid black;
-
 }
 
 .display-flex {
@@ -71,6 +66,28 @@ img {
 
 }
 
+ul {
+
+  list-style-type: none;
+
+}
+
+li {
+
+  display: inline;
+  
+
+}
+
+a {
+
+  text-decoration: none;
+  
+  color: inherit;
+  font-size: 2rem;
+
+}
+
 /*HEADER*/
 header {
 
@@ -82,34 +99,6 @@ header {
   right: 0px;
   color: white;
   font-size: 2rem;
-
-}
-
-.header-elements {
-
-
-}
-
-
-
-header ul {
-
-  list-style-type: none;
-
-}
-
-header li {
-
-  display: inline;
-  
-
-}
-
-header a {
-
-  text-decoration: none;
-  
-  color: inherit;
 
 }
 
@@ -274,25 +263,49 @@ header a {
 footer {
 
   background-color: #1a1a1a;
-
-  /*DEBUG*/
-
-  /*height: 200px;*/
+  color: white;
 
 }
 
 .footer-elements {
 
-  
+  padding: 3em 0;
+
+}
+
+footer h3 {
+
+  font-size: 2.8rem;
+
+}
+
+footer a {
+
+  font-size: 1.5rem;
+
+}
+
+.footer-right {
+
+  text-align: end;
 
 }
 
 .footer-left,
 .footer-right {
 
-  /*DEBUG*/
-  height: 50px;
   width: 50%;
-  border: 1px solid white
+ 
+}
+
+.footer-right li {
+
+  margin-left: 1em;
+
+}
+
+.footer-left li {
+
+  margin-right: 1em;
 
 }
