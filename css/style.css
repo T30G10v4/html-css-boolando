@@ -48,7 +48,7 @@ img {
   /*DEBUG*/
   /* height: 100px; */
   
-  border: 1px solid black
+  border: 1px solid black;
 
 }
 
@@ -69,10 +69,18 @@ header {
 
 }
 
-.header-elements {
+.header-center {
 
+  text-align: center;
   
+}
 
+.header-center > img {
+
+  /*display: inline-block;*/
+  width: 40%;
+  vertical-align: middle;
+  
 }
 
 .header-left,
@@ -83,7 +91,7 @@ header {
 
   height: 50px;
   width: calc(100% / 3);
-  border: 1px solid black
+  border: 1px solid black;
 
 
 }
