@@ -76,6 +76,7 @@ header {
 
   background-color: #ff6900;
   position: fixed;
+  z-index: 1;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -173,11 +174,6 @@ header a {
 
   width: calc(100% / 3 - 40px);
   margin-bottom: 4em;
-
-  /*DEBUG*/
-  height: 1000px;
-  background-color: aquamarine;
-  border: 1px dashed black;
 
 }
 
