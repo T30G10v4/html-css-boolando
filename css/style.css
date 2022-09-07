@@ -74,7 +74,7 @@ header {
   left: 0px;
   right: 0px;
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
 
 }
 
@@ -83,22 +83,22 @@ header {
 
 }
 
-/*HEADER LEFT*/
 
-.header-left ul {
+
+header ul {
 
   list-style-type: none;
 
 }
 
-.header-left li {
+header li {
 
   display: inline;
-  margin-right: 1em;
+  
 
 }
 
-.header-left a {
+header a {
 
   text-decoration: none;
   
@@ -106,6 +106,12 @@ header {
 
 }
 
+/*HEADER LEFT*/
+.header-left li {
+
+  margin-right: 1em;
+
+}
 
 
 /*HEADER CENTER*/
@@ -123,14 +129,28 @@ header {
   
 }
 
+/*HEADER RIGHT*/
+.header-right {
+
+  text-align: end;
+
+}
+
+.header-right li {
+
+  margin-left: 1em;
+
+}
+
 .header-left,
 .header-center,
 .header-right {
-
-  /*DEBUG*/
-
-  /*height: 50px;*/
+  
   width: calc(100% / 3);
+  
+  /*DEBUG*/
+  /*height: 50px;*/  
+
   border: 1px solid black;
 
 
