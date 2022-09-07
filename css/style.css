@@ -69,9 +69,6 @@ img {
 
   position: absolute;
 
-  /*DEBUG*/
-  background-color: #ff6900;
-
 }
 
 /*HEADER*/
@@ -191,6 +188,13 @@ header a {
 
 }
 
+ .card-image img {
+
+  top: 0px;
+  left: 0px;
+
+} 
+
 .discount,
 .sustain {
 
@@ -217,8 +221,17 @@ header a {
 
 .heart {
 
-  top: 0px;
+  top: 10px;
   right: 0px;
+  padding: .3em;
+  background-color: white;
+
+}
+
+.appear:hover {
+
+
+  display:none;
 
 }
 
