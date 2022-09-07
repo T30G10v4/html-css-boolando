@@ -52,16 +52,26 @@ img {
 
 }
 
+.display-flex {
+
+  display: flex;
+
+}
+
 /*HEADER*/
 header {
 
   background-color: #ff6900;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 
 }
 
 .header-elements {
 
-  display: flex;
+  
 
 }
 
@@ -75,5 +85,57 @@ header {
   width: calc(100% / 3);
   border: 1px solid black
 
+
+}
+
+/*MAIN*/
+
+.main-elements {
+
+  margin-top: 10em;
+
+  /*DEBUG*/
+  /*height: 5000px;*/
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+
+  width: calc(100% / 3 - 40px);
+  margin-bottom: 4em;
+
+  /*DEBUG*/
+  height: 1000px;
+  background-color: aquamarine;
+  border: 1px dashed black;
+
+}
+
+/*FOOTER*/
+
+footer {
+
+  background-color: #1a1a1a;
+
+  /*DEBUG*/
+
+  /*height: 200px;*/
+
+}
+
+.footer-elements {
+
+  
+
+}
+
+.footer-left,
+.footer-right {
+
+  /*DEBUG*/
+  height: 50px;
+  width: 50%;
+  border: 1px solid white
 
 }
